@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+
+}
+body{
+    background-color:black;
+}
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color:purple
+}
+
+
+
+.navbar{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid white;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    
+
+}
+.navbar img{
+    height: 75px;
+    width: auto;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 10px;
+
+}
+
+
+    
+
+.Main-Container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 90px;
+    color: blueviolet;
+    
+
+}
+
+.Main-Container-Image {
+    padding-right: 2,5%;
+    width: 105%;
+}
+
+.Main-Container-Text{
+
+width: 30%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center  ;
+max-height: 100%;
+
+
+}
+.Main-Container-Text h1{
+    color: white;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    height: 100px;
+}
+
+
+
+.btn{
+    text-align: center;
+    margin-top: 100px;
+    height: 50px;
+    width: 70px;
+}
+
+
+
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0%;
+    width: 38.5%;
+
+}
+.button{
+align-self:flex-end;
+    height: 250px;
+}
+
+
+#footer a{
+    color: white;
+    margin: 15px;
+
+}
+
+#footer a:hover{
+    color: black;
+
+
+}
+
+table{
+    position: fixed;
+    top: 25%;
+    width: 25%;
+    color: white;
+    
+}
+
