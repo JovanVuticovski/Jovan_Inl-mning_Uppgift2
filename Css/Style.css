@@ -105,11 +105,11 @@ max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vh;
+    height: 4vh;
     background-color: blueviolet;
     position: fixed;
     bottom: 0%;
-    width: 38.5%;
+    width: 30%;
 
 }
 .button{
